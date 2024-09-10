@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'denver nuxt3'
+      title: 'nuxt-study'
     }
   },
    
