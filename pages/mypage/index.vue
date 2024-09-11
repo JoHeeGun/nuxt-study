@@ -14,7 +14,7 @@ const userStore = useUserStore();
 const CartStore = useCartStore();
 const router = useRouter();
 const route = useRoute();
-const VM_IMG_URL = 'https://s3.ap-northeast-2.amazonaws.com/img-dev.vimeal.kr';
+// const VM_IMG_URL = 'https://s3.ap-northeast-2.amazonaws.com/img-dev.vimeal.kr';
 
 onBeforeUpdate(() => {
     const isLoggedIn = JSON.parse(localStorage.getItem("vimeal__user")) || '';
