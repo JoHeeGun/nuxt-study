@@ -12,20 +12,9 @@ const TAB_MENU = ref([
             path: "/",
         },
         {
-            name: "섭취기록",
-            icon: "intakeRecord",
-            path: "/intakeRecord",
-        },
-        {
             name: "제품구매",
             icon: "product",
             path: "/product",
-        },
-
-        {
-            name: "약사상담",
-            icon: "consult",
-            path: "/consult",
         },
         {
             name: "맞춤추천",
